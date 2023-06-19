@@ -1,0 +1,127 @@
+body {
+  background-image: linear-gradient(135deg, #007adf 10%, #00ecbc 100%);   
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+button {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  background-color: transparent;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+  border-radius: 4px;
+}
+button:hover {
+  background-color: yellow;
+}
+
+button:active {
+  background-color: white;
+}
+
+button.operador {
+  background-color: deepskyblue;
+  color: #fff;
+  font-weight: bold;
+}
+
+button.operador:hover {
+  background-color: darkkhaki;
+}
+#display {
+  width: 100%;
+
+  font-size: 30px;
+  text-align: right;
+  margin-bottom: 0px;
+  padding: 5px;
+  border: 0px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: gold;
+}
+.grid-contenedor {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 10px;
+  max-width: 500px;
+
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  /*box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);*/
+}
+.item {
+  background-color: whitesmoke;
+  color: #333;
+  font-size: 24px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 4px;
+}
+.grid-contenedor-t {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  max-width: 500px;
+  margin: 0px auto;
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 8px;
+  text-align: center;
+  color: white;
+}
+.grid-contenedor-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+.item-1 {
+  background-color: white;
+  color: #333;
+  font-size: 24px;
+  text-align: center;
+  padding: 0px;
+  border-radius: 4px;
+}
+.grid-contenedor-1 h1 {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.grid-contenedor-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+.item-2 {
+  background-color: white;
+  color: #333;
+  font-size: 24px;
+  text-align: center;
+  padding: 0px;
+  border-radius: 4px;
+}
+.item-3 {
+  background-color: white;
+  color: #333;
+  font-size: 24px;
+  text-align: center;
+  padding: 0px;
+  border-radius: 4px;
+}
